@@ -102,13 +102,16 @@ const pencil = {
       x: x,
       y: y
     });
+    
+    c.lineWidth = this.brush;
+    
     if (this.path.length > 1) {
-      c.beginPath();
-      c.lineWidth = this.brush;
-      c.moveTo(this.path[this.path.length - 2].x, this.path[this.path.length - 2].y);
       c.lineTo(this.path[this.path.length - 1].x, this.path[this.path.length - 1].y);
       c.stroke();
       this.path.shift();
+    }else{
+      c.beginPath();
+      c.moveTo(this.path[0].x, this.path[0].y);    
     }
   },
 
