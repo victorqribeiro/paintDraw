@@ -1,6 +1,6 @@
 # Paint Draw
 
-A JavaScript paint and draw app that I made when I was bored in class.
+A JavaScript paint and draw app that I made when I was bored in class. [Live Version](https://victorribeiro.com/paintDraw/)
 
 ![paintDraw](pd2.gif)
 
