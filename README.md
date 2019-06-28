@@ -3,7 +3,7 @@
 A JavaScript paint and draw app that I made when I was bored in class.
 
 
-I often think about mergin this to my (photoEditor)[https://github.com/victorqribeiro/photoEditor]
+I often think about mergin this to my [photoEditor](https://github.com/victorqribeiro/photoEditor)
 
 # How to Use
 
